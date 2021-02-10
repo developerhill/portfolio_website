@@ -110,8 +110,23 @@ main {
     
     .job {
         background: lighten($primary-color, 5);
-        padding: 0.5rem;
+        padding: 2rem;
         border-bottom: $secondary-color 5px solid;
+
+        h3 {
+            font-size: 1.5rem;;
+        }
+
+        h5 {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        h6 {
+            font-size: .9rem;
+            margin: 0;
+            color: $secondary-color;
+        }
     }
 }
 
