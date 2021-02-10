@@ -187,6 +187,28 @@ main {
       margin: 0;
       color: #3579DC; }
 
+.social-media-follow {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'sm1 sm2 sm3';
+  grid-template-columns: repeat(); }
+  .social-media-follow .sm-1 {
+    grid-area: sm1; }
+  .social-media-follow .sm-2 {
+    grid-area: sm2; }
+  .social-media-follow .sm-3 {
+    grid-area: sm3; }
+  .social-media-follow .social-media {
+    background: #515151;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem; }
+    .social-media-follow .social-media h4 {
+      margin: 0;
+      margin-top: .5rem; }
+    .social-media-follow .social-media:hover {
+      background: #3579DC; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;

@@ -130,6 +130,43 @@ main {
     }
 }
 
+
+.social-media-follow {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'sm1 sm2 sm3';
+    grid-template-columns: repeat();
+    
+    .sm-1 {
+        grid-area: sm1;
+    }
+    
+    .sm-2 {
+        grid-area: sm2;
+    }
+    
+    .sm-3 {
+        grid-area: sm3;
+    }
+    
+    .social-media {
+        background: lighten($primary-color, 5);
+        text-align: center;
+        margin-top: 1rem;
+        padding: 1rem;
+
+        h4 {
+            margin: 0;
+            margin-top: .5rem;
+        }
+
+        &:hover {
+            background: $secondary-color;
+        }
+    }
+}
+
 //Work/Projects
 .projects {
     display: grid;
